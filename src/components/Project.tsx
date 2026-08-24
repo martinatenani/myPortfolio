@@ -22,13 +22,13 @@ const projectsData = [
         tags: ["AI Implementation", "NLP", "UI/UX Design"]
     },
     {
-        id: 1,
-        title: "Filmate AI",
-        longDescription: "Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.",
+        id: 2,
+        title: "GameJams and Prototypes",
+        longDescription: "Game development projects and prototypes created during various game jams.",
         image: mock10,
         link: "https://www.filmate.club/",
-        slug: "filmate-ai", // This will be used later for your full page URL route!
-        tags: ["AI Implementation", "NLP", "UI/UX Design"]
+        slug: "gamejams-prototypes", // This will be used later for your full page URL route!
+        tags: ["GameJam", "Prototypes", "Game Development", "Unity", "Unreal", "C#", "Blueprints"]
     }
 ]
 

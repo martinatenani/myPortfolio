@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 //case studies
 import FilmateCaseStudy from './components/cases/FilmateCaseStudy';
+import GameJamsPrototypes from './components/cases/GameJamsPrototypes';
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -50,6 +51,7 @@ function App() {
                     } />
 
                     <Route path="/project/filmate-ai" element={<FilmateCaseStudy />} />
+                    <Route path="/project/gamejams-prototypes" element={<GameJamsPrototypes />} />
                 </Routes>
             </FadeIn>
             
