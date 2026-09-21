@@ -33,7 +33,7 @@ const projectsData = [
         tags: ["ONGOING","Game Development", "Unreal", "Blueprints", "Gameplay Programming"]
     },
     {
-        id: 2,
+        id: 3,
         title: "The Great Wall",
         longDescription: "A personal project",
         image: gmtk2026,
