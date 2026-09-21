@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 //images
 import mock10 from '../assets/images/FilmateCaseStudy/mock10.png';
+import gmtk2026 from '../assets/images/GameJamsPrototypes/gmtk2026.png';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -25,7 +26,7 @@ const projectsData = [
         id: 2,
         title: "GameJams and Prototypes",
         longDescription: "Game development projects and prototypes created during various game jams.",
-        image: mock10,
+        image: gmtk2026,
         link: "https://www.filmate.club/",
         slug: "gamejams-prototypes", // This will be used later for your full page URL route!
         tags: ["GameJam", "Prototypes", "Game Development", "Unity", "Unreal", "C#", "Blueprints"]
