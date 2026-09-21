@@ -138,6 +138,27 @@
     transform: scale(1.05);
 }
 
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+
+  .tag {
+    /* Replaced static grays with CSS variables */
+    background-color: var(--tag-bg-color, rgba(255, 255, 255, 0.08));
+    color: var(--tag-text-color, var(--card-text-color));
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
 @media screen {
       @media (max-width: 768px) {
     .projects-carousel-wrapper {
