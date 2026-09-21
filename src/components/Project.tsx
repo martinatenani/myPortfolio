@@ -13,24 +13,34 @@ import "../assets/styles/Project.scss";
 
 //Project data definition
 const projectsData = [
+    
     {
         id: 1,
-        title: "Filmate AI",
-        longDescription: "Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.",
-        image: mock10,
-        link: "https://www.filmate.club/",
-        slug: "filmate-ai", // This will be used later for your full page URL route!
-        tags: ["AI Implementation", "NLP", "UI/UX Design"]
+        title: "GameJams",
+        longDescription: "Game development projects and prototypes created during various game jams.",
+        image: gmtk2026,
+        link: "",
+        slug: "gamejams-prototypes", // This will be used later for your full page URL route!
+        tags: ["GameJam", "Fast Prototypes", "Game Development", "Unity", "C#"]
     },
     {
         id: 2,
-        title: "GameJams and Prototypes",
-        longDescription: "Game development projects and prototypes created during various game jams.",
+        title: "Afterglow",
+        longDescription: "A personal project",
         image: gmtk2026,
         link: "https://www.filmate.club/",
-        slug: "gamejams-prototypes", // This will be used later for your full page URL route!
-        tags: ["GameJam", "Prototypes", "Game Development", "Unity", "Unreal", "C#", "Blueprints"]
-    }
+        slug: "afterglow", // This will be used later for your full page URL route!
+        tags: ["ONGOING","Game Development", "Unreal", "Blueprints", "Gameplay Programming"]
+    },
+    {
+        id: 2,
+        title: "The Great Wall",
+        longDescription: "A personal project",
+        image: gmtk2026,
+        link: "https://www.filmate.club/",
+        slug: "tgw", // This will be used later for your full page URL route!
+        tags: ["ONGOING","Game Development", "Tool Development", "Unreal", "C++", "Technical Art"]
+    },
 ]
 
 //Inline styling for MUI modal container
